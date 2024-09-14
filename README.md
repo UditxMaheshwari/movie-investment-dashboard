@@ -138,7 +138,7 @@ src/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/movie-investment-dashboard.git
+   git clone https://github.com/UditxMaheshwari/movie-investment-dashboard.git
    cd movie-investment-dashboard
    ```
 
@@ -155,7 +155,7 @@ src/
    Since Shadcn UI components are being used, ensure they are properly set up. For example, to add the `Card` component:
 
    ```bash
-   npx shadcn-ui@latest add card
+   npx shadcn@latest add card
    ```
 
 4. **Run the Development Server**
