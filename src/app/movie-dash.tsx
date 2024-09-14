@@ -33,7 +33,7 @@ const MovieInvestmentDashboard = () => {
     ]
   });
 
-  const [watchlist, setWatchlist] = useState([
+  const [watchlist] = useState([
     { id: 1, title: "Pathaan", price: 25.50, change: 3.2, genre: "Action", releaseDate: "2024-01-25" },
     { id: 2, title: "KGF Chapter 3", price: 30.75, change: -0.8, genre: "Action", releaseDate: "2024-05-10" },
     { id: 3, title: "Liger", price: 18.40, change: 1.5, genre: "Sports Drama", releaseDate: "2023-12-15" },
@@ -336,9 +336,9 @@ const MovieInvestmentDashboard = () => {
           </CardHeader>
           <CardContent>
             <ul className="space-y-2">
-              <li className="text-sm flex justify-between"><span>Bought 10 shares of "Pathaan"</span> <span className="text-green-500">+$152.30</span></li>
-              <li className="text-sm flex justify-between"><span>Sold 5 shares of "KGF Chapter 3"</span> <span className="text-red-500">-$112.25</span></li>
-              <li className="text-sm flex justify-between"><span>Bought 3 shares of "Liger"</span> <span className="text-green-500">+$60.36</span></li>
+              <li className="text-sm flex justify-between"><span>Bought 10 shares of &quot;Pathaan&quot;</span> <span className="text-green-500">+$152.30</span></li>
+              <li className="text-sm flex justify-between"><span>Sold 5 shares of &quot;KGF Chapter 3&quot;</span> <span className="text-red-500">-$112.25</span></li>
+              <li className="text-sm flex justify-between"><span>Bought 3 shares of &quot;Liger&quot;</span> <span className="text-green-500">+$60.36</span></li>
             </ul>
           </CardContent>
         </Card>
