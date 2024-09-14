@@ -5,7 +5,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Slider } from '@/components/ui/slider';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { DollarSign, Film, TrendingUp, Settings, Star, Award, Users, Calendar, BarChart2, ChevronLeft, ChevronRight } from 'lucide-react';
 import clsx from 'clsx'; // Ensure clsx is installed: npm install clsx
