@@ -325,7 +325,7 @@ const MovieInvestmentDashboard = () => {
                             <YAxis domain={['dataMin - 1', 'dataMax + 1']} />
                             <CartesianGrid strokeDasharray="3 3" />
                             <Tooltip 
-                              formatter={(value, name) => [typeof value === 'number' ? value.toFixed(2) : value, 'Price']}
+                              formatter={(value, ) => [typeof value === 'number' ? value.toFixed(2) : value, 'Price']}
                               labelFormatter={(label) => `Day ${label}`}
                             />
                             <Line type="monotone" dataKey="price" stroke="#3B82F6" dot={false} />
@@ -339,7 +339,7 @@ const MovieInvestmentDashboard = () => {
                             <YAxis />
                             <CartesianGrid strokeDasharray="3 3" />
                             <Tooltip 
-                              formatter={(value, name) => [typeof value === 'number' ? value.toLocaleString() : value, 'Volume']}
+                              formatter={(value, ) => [typeof value === 'number' ? value.toLocaleString() : value, 'Volume']}
                               labelFormatter={(label) => `Day ${label}`}
                             />
                             <Bar dataKey="volume" fill="#3B82F6" />
