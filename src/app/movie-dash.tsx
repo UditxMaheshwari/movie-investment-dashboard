@@ -37,8 +37,8 @@ const MovieInvestmentDashboard = () => {
   const [watchlist] = useState([
     { id: 1, title: "Pathaan", price: 25.50, change: 3.2, genre: "Action", releaseDate: "2024-01-25" },
     { id: 2, title: "KGF Chapter 3", price: 30.75, change: -0.8, genre: "Action", releaseDate: "2024-05-10" },
-    { id: 3, title: "Liger", price: 18.40, change: 1.5, genre: "Sports Drama", releaseDate: "2023-12-15" },
-    { id: 4, title: "Gangubai Kathiawadi", price: 22.10, change: 2.0, genre: "Biographical", releaseDate: "2023-11-05" },
+    { id: 3, title: "Liger", price: 18.60, change: 1.5, genre: "Sports Drama", releaseDate: "2023-12-15" },
+    { id: 4, title: "Gangubai Kathiawadi", price: 23.10, change: 2.0, genre: "Biographical", releaseDate: "2023-11-05" },
   ]);
 
   const [selectedMovie, setSelectedMovie] = useState<{
@@ -51,7 +51,7 @@ const MovieInvestmentDashboard = () => {
     budget: number;
   }>({
     title: "Pathaan",
-    price: 25.50,
+    price: 25.99,
     change: 3.2,
     data: generateMovieData(),
     cast: ["Shah Rukh Khan", "Deepika Padukone", "John Abraham"],
